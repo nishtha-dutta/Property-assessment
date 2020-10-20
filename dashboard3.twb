@@ -1,0 +1,2197 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0213.2333                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0213.2333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ast2018full' inline='true' name='federated.03es7iw1tiabgh1c2s0e80gttxtt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ast2018full' name='textscan.0ds2e571neezsp1dpf9v902h739x'>
+            <connection class='textscan' directory='C:/Users/nishtha/Desktop/Communication &amp; visualisation' filename='ast2018full.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0ds2e571neezsp1dpf9v902h739x' name='ast2018full.csv' table='[ast2018full#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='PID' ordinal='0' />
+            <column datatype='integer' name='CM_ID' ordinal='1' />
+            <column datatype='integer' name='GIS_ID' ordinal='2' />
+            <column datatype='string' name='ST_NUM' ordinal='3' />
+            <column datatype='string' name='ST_NAME' ordinal='4' />
+            <column datatype='string' name='ST_NAME_SUF' ordinal='5' />
+            <column datatype='integer' name='UNIT_NUM' ordinal='6' />
+            <column datatype='integer' name='ZIPCODE' ordinal='7' />
+            <column datatype='integer' name='PTYPE' ordinal='8' />
+            <column datatype='string' name='LU' ordinal='9' />
+            <column datatype='string' name='OWN_OCC' ordinal='10' />
+            <column datatype='string' name='OWNER' ordinal='11' />
+            <column datatype='string' name='MAIL_ADDRESSEE' ordinal='12' />
+            <column datatype='string' name='MAIL_ADDRESS' ordinal='13' />
+            <column datatype='string' name='MAIL CS' ordinal='14' />
+            <column datatype='integer' name='MAIL_ZIPCODE' ordinal='15' />
+            <column datatype='string' name='Area Name' ordinal='16' />
+            <column datatype='integer' name='AV_BLDG' ordinal='17' />
+            <column datatype='integer' name='AV_TOTAL' ordinal='18' />
+            <column datatype='integer' name='GROSS_TAX' ordinal='19' />
+            <column datatype='integer' name='LAND_SF' ordinal='20' />
+            <column datatype='integer' name='YR_BUILT' ordinal='21' />
+            <column datatype='integer' name='YR_REMOD' ordinal='22' />
+            <column datatype='integer' name='GROSS_AREA' ordinal='23' />
+            <column datatype='integer' name='LIVING_AREA' ordinal='24' />
+            <column datatype='real' name='NUM_FLOORS' ordinal='25' />
+            <column datatype='string' name='STRUCTURE_CLASS' ordinal='26' />
+            <column datatype='string' name='R_BLDG_STYL' ordinal='27' />
+            <column datatype='string' name='R_ROOF_TYP' ordinal='28' />
+            <column datatype='string' name='R_EXT_FIN' ordinal='29' />
+            <column datatype='integer' name='R_TOTAL_RMS' ordinal='30' />
+            <column datatype='integer' name='R_BDRMS' ordinal='31' />
+            <column datatype='integer' name='R_FULL_BTH' ordinal='32' />
+            <column datatype='integer' name='R_HALF_BTH' ordinal='33' />
+            <column datatype='string' name='R_BTH_STYLE' ordinal='34' />
+            <column datatype='string' name='R_BTH_STYLE2' ordinal='35' />
+            <column datatype='string' name='R_BTH_STYLE3' ordinal='36' />
+            <column datatype='integer' name='R_KITCH' ordinal='37' />
+            <column datatype='string' name='R_KITCH_STYLE' ordinal='38' />
+            <column datatype='string' name='R_KITCH_STYLE2' ordinal='39' />
+            <column datatype='string' name='R_KITCH_STYLE3' ordinal='40' />
+            <column datatype='string' name='R_HEAT_TYP' ordinal='41' />
+            <column datatype='string' name='R_AC' ordinal='42' />
+            <column datatype='integer' name='R_FPLACE' ordinal='43' />
+            <column datatype='string' name='R_EXT_CND' ordinal='44' />
+            <column datatype='string' name='R_OVRALL_CND' ordinal='45' />
+            <column datatype='string' name='R_INT_CND' ordinal='46' />
+            <column datatype='string' name='R_INT_FIN' ordinal='47' />
+            <column datatype='string' name='R_VIEW' ordinal='48' />
+            <column datatype='integer' name='S_NUM_BLDG' ordinal='49' />
+            <column datatype='string' name='S_BLDG_STYL' ordinal='50' />
+            <column datatype='integer' name='S_UNIT_RES' ordinal='51' />
+            <column datatype='integer' name='S_UNIT_COM' ordinal='52' />
+            <column datatype='integer' name='S_UNIT_RC' ordinal='53' />
+            <column datatype='string' name='S_EXT_FIN' ordinal='54' />
+            <column datatype='string' name='S_EXT_CND' ordinal='55' />
+            <column datatype='integer' name='U_BASE_FLOOR' ordinal='56' />
+            <column datatype='integer' name='U_NUM_PARK' ordinal='57' />
+            <column datatype='string' name='U_CORNER' ordinal='58' />
+            <column datatype='string' name='U_ORIENT' ordinal='59' />
+            <column datatype='integer' name='U_TOT_RMS' ordinal='60' />
+            <column datatype='integer' name='U_BDRMS' ordinal='61' />
+            <column datatype='integer' name='U_FULL_BTH' ordinal='62' />
+            <column datatype='integer' name='U_HALF_BTH' ordinal='63' />
+            <column datatype='string' name='U_BTH_STYLE' ordinal='64' />
+            <column datatype='string' name='U_BTH_STYLE2' ordinal='65' />
+            <column datatype='string' name='U_BTH_STYLE3' ordinal='66' />
+            <column datatype='string' name='U_KITCH_TYPE' ordinal='67' />
+            <column datatype='string' name='U_KITCH_STYLE' ordinal='68' />
+            <column datatype='string' name='U_HEAT_TYP' ordinal='69' />
+            <column datatype='string' name='U_AC' ordinal='70' />
+            <column datatype='integer' name='U_FPLACE' ordinal='71' />
+            <column datatype='string' name='U_INT_FIN' ordinal='72' />
+            <column datatype='string' name='U_INT_CND' ordinal='73' />
+            <column datatype='string' name='U_VIEW' ordinal='74' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PID]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>PID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CM_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CM_ID]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>CM_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GIS_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GIS_ID]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>GIS_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ST_NUM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ST_NUM]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>ST_NUM</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ST_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ST_NAME]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>ST_NAME</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ST_NAME_SUF</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ST_NAME_SUF]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>ST_NAME_SUF</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_NUM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNIT_NUM]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>UNIT_NUM</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIPCODE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZIPCODE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>ZIPCODE</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PTYPE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PTYPE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>PTYPE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LU</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LU]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>LU</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWN_OCC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OWN_OCC]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>OWN_OCC</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OWNER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OWNER]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>OWNER</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAIL_ADDRESSEE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MAIL_ADDRESSEE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>MAIL_ADDRESSEE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAIL_ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MAIL_ADDRESS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>MAIL_ADDRESS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAIL CS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MAIL CS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>MAIL CS</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAIL_ZIPCODE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAIL_ZIPCODE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>MAIL_ZIPCODE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area Name]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>Area Name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AV_BLDG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AV_BLDG]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>AV_BLDG</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AV_TOTAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AV_TOTAL]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>AV_TOTAL</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS_TAX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROSS_TAX]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>GROSS_TAX</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAND_SF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAND_SF]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>LAND_SF</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YR_BUILT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YR_BUILT]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>YR_BUILT</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YR_REMOD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YR_REMOD]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>YR_REMOD</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS_AREA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROSS_AREA]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>GROSS_AREA</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIVING_AREA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LIVING_AREA]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>LIVING_AREA</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_FLOORS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NUM_FLOORS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>NUM_FLOORS</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STRUCTURE_CLASS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STRUCTURE_CLASS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>STRUCTURE_CLASS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_BLDG_STYL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_BLDG_STYL]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_BLDG_STYL</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_ROOF_TYP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_ROOF_TYP]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_ROOF_TYP</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_EXT_FIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_EXT_FIN]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_EXT_FIN</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_TOTAL_RMS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_TOTAL_RMS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_TOTAL_RMS</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_BDRMS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_BDRMS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_BDRMS</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_FULL_BTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_FULL_BTH]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_FULL_BTH</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_HALF_BTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_HALF_BTH]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_HALF_BTH</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_BTH_STYLE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_BTH_STYLE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_BTH_STYLE</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_BTH_STYLE2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_BTH_STYLE2]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_BTH_STYLE2</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_BTH_STYLE3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_BTH_STYLE3]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_BTH_STYLE3</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_KITCH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_KITCH]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_KITCH</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_KITCH_STYLE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_KITCH_STYLE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_KITCH_STYLE</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_KITCH_STYLE2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_KITCH_STYLE2]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_KITCH_STYLE2</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_KITCH_STYLE3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_KITCH_STYLE3]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_KITCH_STYLE3</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_HEAT_TYP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_HEAT_TYP]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_HEAT_TYP</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_AC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_AC]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_AC</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_FPLACE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R_FPLACE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_FPLACE</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_EXT_CND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_EXT_CND]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_EXT_CND</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_OVRALL_CND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_OVRALL_CND]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_OVRALL_CND</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_INT_CND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_INT_CND]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_INT_CND</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_INT_FIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_INT_FIN]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_INT_FIN</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R_VIEW</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[R_VIEW]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>R_VIEW</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_NUM_BLDG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S_NUM_BLDG]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_NUM_BLDG</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_BLDG_STYL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[S_BLDG_STYL]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_BLDG_STYL</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_UNIT_RES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S_UNIT_RES]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_UNIT_RES</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_UNIT_COM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S_UNIT_COM]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_UNIT_COM</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_UNIT_RC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S_UNIT_RC]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_UNIT_RC</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_EXT_FIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[S_EXT_FIN]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_EXT_FIN</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_EXT_CND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[S_EXT_CND]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>S_EXT_CND</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_BASE_FLOOR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_BASE_FLOOR]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_BASE_FLOOR</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_NUM_PARK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_NUM_PARK]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_NUM_PARK</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_CORNER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_CORNER]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_CORNER</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_ORIENT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_ORIENT]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_ORIENT</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_TOT_RMS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_TOT_RMS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_TOT_RMS</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_BDRMS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_BDRMS]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_BDRMS</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_FULL_BTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_FULL_BTH]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_FULL_BTH</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_HALF_BTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_HALF_BTH]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_HALF_BTH</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_BTH_STYLE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_BTH_STYLE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_BTH_STYLE</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_BTH_STYLE2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_BTH_STYLE2]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_BTH_STYLE2</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_BTH_STYLE3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_BTH_STYLE3]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_BTH_STYLE3</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_KITCH_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_KITCH_TYPE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_KITCH_TYPE</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_KITCH_STYLE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_KITCH_STYLE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_KITCH_STYLE</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_HEAT_TYP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_HEAT_TYP]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_HEAT_TYP</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_AC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_AC]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_AC</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_FPLACE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U_FPLACE]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_FPLACE</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_INT_FIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_INT_FIN]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_INT_FIN</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_INT_CND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_INT_CND]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_INT_CND</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U_VIEW</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[U_VIEW]</local-name>
+            <parent-name>[ast2018full.csv]</parent-name>
+            <remote-alias>U_VIEW</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Av Bldg' datatype='integer' name='[AV_BLDG]' role='measure' type='quantitative' />
+      <column caption='Av Total' datatype='integer' name='[AV_TOTAL]' role='measure' type='quantitative' />
+      <column caption='Cm Id' datatype='integer' name='[CM_ID]' role='dimension' type='ordinal' />
+      <column caption='Gis Id' datatype='integer' name='[GIS_ID]' role='dimension' type='ordinal' />
+      <column caption='Gross Area' datatype='integer' name='[GROSS_AREA]' role='measure' type='quantitative' />
+      <column caption='Gross Tax' datatype='integer' name='[GROSS_TAX]' role='measure' type='quantitative' />
+      <column caption='Land Sf' datatype='integer' name='[LAND_SF]' role='measure' type='quantitative' />
+      <column caption='Living Area' datatype='integer' name='[LIVING_AREA]' role='measure' type='quantitative' />
+      <column datatype='string' name='[LU (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[LU]' new-bin='true'>
+          <bin default-name='true' value='&quot;C &amp; CM&quot;'>
+            <value>&quot;C&quot;</value>
+            <value>&quot;CM&quot;</value>
+          </bin>
+          <bin default-name='true' value='&quot;R1, R2, R3&quot;'>
+            <value>&quot;R1&quot;</value>
+            <value>&quot;R2&quot;</value>
+            <value>&quot;R3&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[LU]' role='dimension' type='nominal' />
+      <column caption='Mail Cs' datatype='string' name='[MAIL CS]' role='dimension' type='nominal' />
+      <column caption='Mail Addressee' datatype='string' name='[MAIL_ADDRESSEE]' role='dimension' type='nominal' />
+      <column caption='Mail Address' datatype='string' name='[MAIL_ADDRESS]' role='dimension' type='nominal' />
+      <column caption='Mail Zipcode' datatype='integer' default-format='*00000' name='[MAIL_ZIPCODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Num Floors' datatype='real' name='[NUM_FLOORS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Owner' datatype='string' name='[OWNER]' role='dimension' type='nominal' />
+      <column caption='Own Occ' datatype='string' name='[OWN_OCC]' role='dimension' type='nominal' />
+      <column caption='Ptype' datatype='integer' name='[PTYPE]' role='measure' type='quantitative' />
+      <column caption='R Ac' datatype='string' name='[R_AC]' role='dimension' type='nominal' />
+      <column caption='R Bdrms' datatype='integer' name='[R_BDRMS]' role='measure' type='quantitative' />
+      <column caption='R Bldg Styl' datatype='string' name='[R_BLDG_STYL]' role='dimension' type='nominal' />
+      <column caption='R Bth Style2' datatype='string' name='[R_BTH_STYLE2]' role='dimension' type='nominal' />
+      <column caption='R Bth Style3' datatype='string' name='[R_BTH_STYLE3]' role='dimension' type='nominal' />
+      <column caption='R Bth Style' datatype='string' name='[R_BTH_STYLE]' role='dimension' type='nominal' />
+      <column caption='R Ext Cnd' datatype='string' name='[R_EXT_CND]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;A&quot;' value='Average' />
+          <alias key='&quot;E&quot;' value='Excellent' />
+          <alias key='&quot;P&quot;' value='Poor' />
+        </aliases>
+      </column>
+      <column caption='R Ext Fin' datatype='string' name='[R_EXT_FIN]' role='dimension' type='nominal' />
+      <column caption='R Fplace' datatype='integer' name='[R_FPLACE]' role='measure' type='quantitative' />
+      <column caption='R Full Bth' datatype='integer' name='[R_FULL_BTH]' role='measure' type='quantitative' />
+      <column caption='R Half Bth' datatype='integer' name='[R_HALF_BTH]' role='measure' type='quantitative' />
+      <column caption='R Heat Typ' datatype='string' name='[R_HEAT_TYP]' role='dimension' type='nominal' />
+      <column caption='R Int Cnd' datatype='string' name='[R_INT_CND]' role='dimension' type='nominal' />
+      <column caption='R Int Fin' datatype='string' name='[R_INT_FIN]' role='dimension' type='nominal' />
+      <column caption='R Kitch' datatype='integer' name='[R_KITCH]' role='measure' type='quantitative' />
+      <column caption='R Kitch Style2' datatype='string' name='[R_KITCH_STYLE2]' role='dimension' type='nominal' />
+      <column caption='R Kitch Style3' datatype='string' name='[R_KITCH_STYLE3]' role='dimension' type='nominal' />
+      <column caption='R Kitch Style' datatype='string' name='[R_KITCH_STYLE]' role='dimension' type='nominal' />
+      <column caption='R Ovrall Cnd' datatype='string' name='[R_OVRALL_CND]' role='dimension' type='nominal' />
+      <column caption='R Roof Typ' datatype='string' name='[R_ROOF_TYP]' role='dimension' type='nominal' />
+      <column caption='R Total Rms' datatype='integer' name='[R_TOTAL_RMS]' role='measure' type='quantitative' />
+      <column caption='R View' datatype='string' name='[R_VIEW]' role='dimension' type='nominal' />
+      <column caption='Structure Class' datatype='string' name='[STRUCTURE_CLASS]' role='dimension' type='nominal' />
+      <column caption='St Name' datatype='string' name='[ST_NAME]' role='dimension' type='nominal' />
+      <column caption='St Name Suf' datatype='string' name='[ST_NAME_SUF]' role='dimension' type='nominal' />
+      <column caption='St Num' datatype='string' name='[ST_NUM]' role='dimension' type='nominal' />
+      <column caption='S Bldg Styl' datatype='string' name='[S_BLDG_STYL]' role='dimension' type='nominal' />
+      <column caption='S Ext Cnd' datatype='string' name='[S_EXT_CND]' role='dimension' type='nominal' />
+      <column caption='S Ext Fin' datatype='string' name='[S_EXT_FIN]' role='dimension' type='nominal' />
+      <column caption='S Num Bldg' datatype='integer' name='[S_NUM_BLDG]' role='measure' type='quantitative' />
+      <column caption='S Unit Com' datatype='integer' name='[S_UNIT_COM]' role='measure' type='quantitative' />
+      <column caption='S Unit Rc' datatype='integer' name='[S_UNIT_RC]' role='measure' type='quantitative' />
+      <column caption='S Unit Res' datatype='integer' name='[S_UNIT_RES]' role='measure' type='quantitative' />
+      <column caption='Unit Num' datatype='integer' name='[UNIT_NUM]' role='dimension' type='ordinal' />
+      <column caption='U Ac' datatype='string' name='[U_AC]' role='dimension' type='nominal' />
+      <column caption='U Base Floor' datatype='integer' name='[U_BASE_FLOOR]' role='measure' type='quantitative' />
+      <column caption='U Bdrms' datatype='integer' name='[U_BDRMS]' role='measure' type='quantitative' />
+      <column caption='U Bth Style2' datatype='string' name='[U_BTH_STYLE2]' role='dimension' type='nominal' />
+      <column caption='U Bth Style3' datatype='string' name='[U_BTH_STYLE3]' role='dimension' type='nominal' />
+      <column caption='U Bth Style' datatype='string' name='[U_BTH_STYLE]' role='dimension' type='nominal' />
+      <column caption='U Corner' datatype='string' name='[U_CORNER]' role='dimension' type='nominal' />
+      <column caption='U Fplace' datatype='integer' name='[U_FPLACE]' role='measure' type='quantitative' />
+      <column caption='U Full Bth' datatype='integer' name='[U_FULL_BTH]' role='measure' type='quantitative' />
+      <column caption='U Half Bth' datatype='integer' name='[U_HALF_BTH]' role='measure' type='quantitative' />
+      <column caption='U Heat Typ' datatype='string' name='[U_HEAT_TYP]' role='dimension' type='nominal' />
+      <column caption='U Int Cnd' datatype='string' name='[U_INT_CND]' role='dimension' type='nominal' />
+      <column caption='U Int Fin' datatype='string' name='[U_INT_FIN]' role='dimension' type='nominal' />
+      <column caption='U Kitch Style' datatype='string' name='[U_KITCH_STYLE]' role='dimension' type='nominal' />
+      <column caption='U Kitch Type' datatype='string' name='[U_KITCH_TYPE]' role='dimension' type='nominal' />
+      <column caption='U Num Park' datatype='integer' name='[U_NUM_PARK]' role='measure' type='quantitative' />
+      <column caption='U Orient' datatype='string' name='[U_ORIENT]' role='dimension' type='nominal' />
+      <column caption='U Tot Rms' datatype='integer' name='[U_TOT_RMS]' role='measure' type='quantitative' />
+      <column caption='U View' datatype='string' name='[U_VIEW]' role='dimension' type='nominal' />
+      <column caption='Yr Built' datatype='integer' name='[YR_BUILT]' role='dimension' type='quantitative' />
+      <column caption='Yr Remod' datatype='integer' name='[YR_REMOD]' role='dimension' type='quantitative' />
+      <column caption='Zipcode' datatype='integer' default-format='*00000' name='[ZIPCODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column-instance column='[R_EXT_CND]' derivation='None' name='[none:R_EXT_CND:nk]' pivot='key' type='nominal' />
+      <column-instance column='[YR_BUILT]' derivation='None' name='[none:YR_BUILT:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (R Ext Cnd,Yr Built)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:R_EXT_CND:nk]' />
+          <groupfilter function='level-members' level='[none:YR_BUILT:qk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.543568' measure-ordering='alphabetic' measure-percentage='0.456432' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[LU (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;A&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EA&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;E&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;RC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;R2&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;R1, R2, R3&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CM&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;R1&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;C&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;C &amp; CM&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;R3&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:R_EXT_CND:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;P&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;G&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;E&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;A&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Avg assessed value VS condition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average assessed value vs condition for property wrt year built</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ast2018full' name='federated.03es7iw1tiabgh1c2s0e80gttxtt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03es7iw1tiabgh1c2s0e80gttxtt'>
+            <column caption='Av Total' datatype='integer' name='[AV_TOTAL]' role='measure' type='quantitative' />
+            <column datatype='string' name='[LU (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[LU]' new-bin='true'>
+                <bin default-name='true' value='&quot;C &amp; CM&quot;'>
+                  <value>&quot;C&quot;</value>
+                  <value>&quot;CM&quot;</value>
+                </bin>
+                <bin default-name='true' value='&quot;R1, R2, R3&quot;'>
+                  <value>&quot;R1&quot;</value>
+                  <value>&quot;R2&quot;</value>
+                  <value>&quot;R3&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[LU]' role='dimension' type='nominal' />
+            <column caption='R Ext Cnd' datatype='string' name='[R_EXT_CND]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;A&quot;' value='Average' />
+                <alias key='&quot;E&quot;' value='Excellent' />
+                <alias key='&quot;P&quot;' value='Poor' />
+              </aliases>
+            </column>
+            <column caption='Yr Built' datatype='integer' name='[YR_BUILT]' role='dimension' type='quantitative' />
+            <column-instance column='[AV_TOTAL]' derivation='Avg' name='[avg:AV_TOTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[R_EXT_CND]' derivation='None' name='[none:R_EXT_CND:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YR_BUILT]' derivation='None' name='[none:YR_BUILT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[Exclusions (R Ext Cnd,Yr Built)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:R_EXT_CND:nk]' />
+                <groupfilter function='level-members' level='[none:YR_BUILT:qk]' />
+              </groupfilter>
+              <groupfilter function='union'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:R_EXT_CND:nk]' member='%null%' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='%null%' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='0' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1791' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1800' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1809' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1810' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1816' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1820' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1824' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1825' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1830' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1832' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1834' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1835' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1837' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1838' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1840' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1846' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1847' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1850' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1851' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1852' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1853' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1855' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1856' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1857' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1858' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1859' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1860' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1861' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1862' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1863' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1864' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1865' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1866' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1867' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1868' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1869' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1870' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1871' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1872' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1873' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1874' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1875' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1876' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1877' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1878' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1879' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1880' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1881' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1882' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1883' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1884' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1885' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1886' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1887' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1888' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1889' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1890' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1891' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1892' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1893' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1894' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1895' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1896' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1897' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1898' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1899' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1900' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1901' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1902' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1903' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1904' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1905' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1906' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1907' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1908' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1909' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1910' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1911' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1912' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1913' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1914' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1915' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1916' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1917' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1918' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1919' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1920' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1921' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1922' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1923' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1924' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1925' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1926' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1927' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1928' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1929' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1930' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1931' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1932' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1933' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1934' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1935' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1936' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1937' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1938' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1939' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1940' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1941' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1942' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1943' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1944' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1945' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1946' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1947' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1948' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1949' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1950' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1951' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1952' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1953' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1954' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1955' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1956' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1957' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1958' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1959' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1960' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1961' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1962' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1963' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1964' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1965' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1966' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1967' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1968' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1969' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1970' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1971' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1972' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1973' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1974' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1975' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1976' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1977' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1978' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1979' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1980' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1981' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1982' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1983' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1984' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1985' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1986' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1987' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1988' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1989' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1990' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1991' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1992' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1993' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1994' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1995' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1996' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1997' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1998' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='1999' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2000' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2001' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2002' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2003' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2004' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2005' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2006' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2007' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2008' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2009' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2010' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2011' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2012' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2013' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2014' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2015' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2016' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2017' />
+                    <groupfilter function='member' level='[none:YR_BUILT:qk]' member='2018' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:R_EXT_CND:nk]' member='&quot;A&quot;' />
+                  <groupfilter function='member' level='[none:YR_BUILT:qk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[LU (group)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[LU (group)]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[LU (group)]' member='&quot;A&quot;' />
+                <groupfilter function='member' level='[LU (group)]' member='&quot;C &amp; CM&quot;' />
+                <groupfilter function='member' level='[LU (group)]' member='&quot;E&quot;' />
+                <groupfilter function='member' level='[LU (group)]' member='&quot;EA&quot;' />
+                <groupfilter function='member' level='[LU (group)]' member='&quot;RC&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:R_EXT_CND:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:R_EXT_CND:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:R_EXT_CND:nk]' member='&quot;F&quot;' />
+                <groupfilter function='member' level='[none:R_EXT_CND:nk]' member='&quot;G&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;E&quot;</bucket>
+              <bucket>&quot;A&quot;</bucket>
+              <bucket>&quot;P&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[Exclusions (R Ext Cnd,Yr Built)]</column>
+            <column>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]</column>
+            <column>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[LU (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:YR_BUILT:qk]' field-type='quantitative' max='2018' min='1800' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:YR_BUILT:qk]' scope='cols' value='Year Built' />
+            <format attr='title' class='0' field='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[avg:AV_TOTAL:qk]' scope='rows' value='Average Assessed Value' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='20' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[avg:AV_TOTAL:qk]</rows>
+        <cols>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:YR_BUILT:qk]</cols>
+      </table>
+      <simple-id uuid='{BB08D7E3-7F81-40CB-8CD5-18B52CAD844B}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CD23FC22-CF57-47A8-973C-45768D6B59C3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Avg assessed value VS condition' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='9750' id='8' name='Avg assessed value VS condition' pane-specification-id='0' param='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]' type='color' w='14000' x='80900' y='11625' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='18' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Avg assessed value VS condition' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9750' id='8' name='Avg assessed value VS condition' pane-specification-id='0' param='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]' type='color' w='14000' x='80900' y='11625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{60C0076A-B3E5-47D3-BF5D-879179F3F2D7}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B37AC5E0-7754-4F20-A779-F5071A1DABE6}' />
+    </window>
+    <window class='worksheet' name='Avg assessed value VS condition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:Area Name:nk]</field>
+            <field>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]</field>
+            <field>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:YR_BUILT:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{738D095B-A18D-477E-8DCB-61083F74BBDF}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Avg assessed value VS condition'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.03es7iw1tiabgh1c2s0e80gttxtt].[none:R_EXT_CND:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9007EBF5-953D-42D6-B56E-478EFA41C6A4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Avg assessed value VS condition' width='192'>
+      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
+      DlNMD4W+oSgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
